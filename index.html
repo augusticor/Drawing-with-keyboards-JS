@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="augusticor">
-        <link rel="icon" type="image/png" href="icon.PNG">
-        <link rel="stylesheet" href="KeyboardStyles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
-        <title>Keyboard Events</title>
-    </head>
 
-    <body>
-        <header>
-            <div id="main">
-                <h1>DRAWING WITH KEYBOARD</h1>
-        
-                <h2>Press the ARROWS on the keyboard to draw</h2>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="augusticor">
+    <link rel="icon" type="image/png" href="icon.PNG">
+    <link rel="stylesheet" href="KeyboardStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <title>Keyboard Events</title>
+</head>
 
-            <div id="picture">
-                <img id="pictureimg" src="Picture.jpg">
-            </div>
-        </header>
+<body>
+    <header>
+        <div id="main">
+            <h1>DRAWING WITH KEYBOARD</h1>
 
-        <div class="wrapper">
-            <div class="features">
-                <h3>FEATURES</h3>
-                <ul>
-                    <li id="instruc">Start coordinates on canvas <br>(1110px X 480px)</li>
-                    <li>X , Y initial points <input type="text" id="initX" class="txtCoordenates" /> <input type="text" id="initY" class="txtCoordenates" /></li>
-                    <li>Color <input type="color" id="colorPicker" value="#FFF700"></li>
-                    <li id="liBtn"><input id="btnApply" type="button" value="APPLY"></li>
-                </ul>
-            </div>
-
-            <div id="canvasContent">
-                <canvas id="canvasHTML"></canvas>
-            </div>
+            <h2>Press the ARROWS on the keyboard to draw</h2>
         </div>
 
-        <footer>
-            <div id="leftfooter">
-                <p>
-                    2020 "augusticor" <br> Practicing web programming -> <strong>JAVASCRIPT</strong>
-                </p>
-            </div>
-            <div id="rightfooter">
-                <ul class="socialMedia">
-                    <li><a href="https://github.com/augusticor" target="blank"> <img class="imgs" src="github.png"></a></li>
-                    <li><a href="https://twitter.com/augusticor" target="blank"> <img class="imgs" src="twitter.png"></a></li>
-                </ul>                
-            </div>
-        </footer>
+        <div id="picture">
+            <img id="pictureimg" src="Picture.jpg">
+        </div>
+    </header>
 
-        <script src="Events.js"></script>
+    <div class="wrapper">
+        <div class="features">
+            <h3>FEATURES</h3>
+            <ul>
+                <li id="instruc">Start coordinates on canvas</li>
+                <li>X , Y initial points <input type="text" id="initX" class="txtCoordenates" /> <input type="text"
+                        id="initY" class="txtCoordenates" /></li>
+                <li>Color <input type="color" id="colorPicker" value="#FFF700"></li>
+                <li id="liBtn"><input id="btnApply" type="button" value="APPLY"></li>
+            </ul>
+        </div>
 
-    </body>
+        <div id="canvasContent">
+            <canvas id="canvasHTML" class="canvitas"></canvas>
+        </div>
+    </div>
+
+    <footer>
+        <div id="leftfooter">
+            <p>
+                2020 "augusticor" <br> <strong>JAVASCRIPT</strong>
+            </p>
+        </div>
+        <div id="rightfooter">
+            <ul class="socialMedia">
+                <li><a href="https://github.com/augusticor" target="blank"> <img class="imgs" src="github.png"></a></li>
+                <li><a href="https://twitter.com/augusticor" target="blank"> <img class="imgs" src="twitter.png"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="Events.js"></script>
+
+</body>
+
 </html>

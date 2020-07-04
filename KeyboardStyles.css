@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 * {
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    list-style: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
-    font-family: 'Indie Flower', cursive;
 }
 
 /*Header*/
+
 header {
+    background-image: linear-gradient(to right, #F14949, #EE8240, #ECD70C, #A8F11F, #69F32D, #26EBC7, #41A4F7, #3E4FFA, #590AE4, #850DC5, #EC21B2, #D90909);
     display: flex;
-    background-image: linear-gradient(to right,#F14949,#EE8240,#ECD70C,#A8F11F,#69F32D,#26EBC7,#41A4F7,#3E4FFA,#590AE4,#850DC5,#EC21B2,#D90909);
 }
 
 #main, #picture {
@@ -39,39 +39,40 @@ h2 {
 }
 
 #pictureimg {
-    width: 70%;
-    height: 200px;
     border-radius: 2em;
+    height: 200px;
     margin-top: 10px;
+    width: 70%;
 }
 
 /*Wrapper*/
+
 .wrapper {
+    margin-top: 10px;
     position: relative;
     vertical-align: top;
-    margin-top: 10px;
 }
 
 .wrapper .features {
-    position: fixed;
-    width: 180px;
-    height: 51%;
-    border: solid black 2px;
-    text-align: center;
-    margin-left: 10px;
     background-color: #ffffff;
+    border: solid black 2px;
     border-radius: 2em;
+    height: 310px;
+    margin-left: 10px;
+    position: fixed;
+    text-align: center;
+    width: 180px;
 }
 
 .wrapper .features h3 {
-    margin-top: 15px;
-    margin-bottom: 8px;
     font-size: 25px;
+    margin-bottom: 8px;
+    margin-top: 15px;
 }
 
 .wrapper .features ul li {
-    padding: 10px;
     font-size: 20px;
+    padding: 10px;
 }
 
 .wrapper .features ul #instruc {
@@ -79,9 +80,9 @@ h2 {
 }
 
 .txtCoordenates {
-    width: 40%;
-    font-size: 20px;
     font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    width: 40%;
 }
 
 .wrapper .features ul #liBtn {
@@ -90,14 +91,14 @@ h2 {
 
 #btnApply {
     background-color: white;
-    color: #008dc9;
     border-color: #008dc9;
-    height: 50px;
-    width: 100%;
+    border-radius: 2em;
+    color: #008dc9;
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
     font-weight: bolder;
-    border-radius: 2em;
+    height: 50px;
+    width: 100%;
 }
 
 #btnApply:hover {
@@ -106,24 +107,25 @@ h2 {
 }
 
 /*CANVAS*/
+
 .wrapper #canvasContent {
-    width: 1110px;
-    height: 480px;
+    height: 500px;
     margin-left: 230px;
+    width: 80%;
 }
 
 /*FOOTER*/
 
 footer {
+    background-image: linear-gradient(to right, #E4BF17, #E8D217, #EDE316, #FDFF70, #F7FF81);
     display: flex;
     font-size: 22px;
     margin-top: 100px;
-    background-image: linear-gradient(to right,#E4BF17,#E8D217,#EDE316, #FDFF70, #F7FF81);
 }
 
 #rightfooter, #leftfooter {
-    width: 50%;
     text-align: center;
+    width: 50%;
 }
 
 #leftfooter p {
@@ -138,6 +140,6 @@ footer {
 }
 
 .imgs {
-    width: 80px;
     height: 70px;
+    width: 80px;
 }
